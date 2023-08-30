@@ -1,7 +1,7 @@
 const express  = require("express");
 const bodyParser = require("body-parser");
 const date = require(__dirname+"/date.js");
-let items = ["cook food" , "Bathing" , "washing"];
+let items = ["Add To Do Work Below"];
 let newitems = [];
 const app = express();
 app.set('view engine','ejs');
